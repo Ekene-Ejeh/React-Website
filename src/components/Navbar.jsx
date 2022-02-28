@@ -34,13 +34,14 @@ const MenuItem = styled.li`
 const Right = styled.div``;
 
 const Button = styled.button`
-	border: 2px solid black;
+	border: 2px solid white;
 	padding: 10px 15px;
 	background-color: crimson;
 	color: #fff;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	border-radius: 15px;
+	cursor: pointer;
 `;
 
 export default function Navbar() {
