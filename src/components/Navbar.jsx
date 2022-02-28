@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Left = styled.div`
 	width: 60%;
 	display: flex;
-	align-item: center;
+	align-items: center;
 	justify-content: space-between;
 `;
 const Logo = styled.h1`
@@ -38,7 +38,6 @@ const Button = styled.button`
 	padding: 10px 15px;
 	background-color: crimson;
 	color: #fff;
-	font-size: 16px;
 	font-weight: bold;
 	border-radius: 15px;
 	cursor: pointer;
