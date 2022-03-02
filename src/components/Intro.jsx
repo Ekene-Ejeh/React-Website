@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import saitama from "../img/saitama.jpg";
+import Latina from "../img/Latina with Glasses.jpg";
 
 const Container = styled.div`
 	height: calc(100vh - 50px);
@@ -89,7 +89,7 @@ export default function Intro() {
 					</Info>
 				</Left>
 				<Right>
-					<Image src={saitama}></Image>
+					<Image src={Latina}></Image>
 				</Right>
 			</Container>
 		</>
