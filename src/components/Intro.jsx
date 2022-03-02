@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import saitama from "../img/saitama.jpg";
 
 const Container = styled.div`
 	height: calc(100vh - 50px);
@@ -62,6 +63,10 @@ const Right = styled.div`
 	width: 40%;
 `;
 
+const Image = styled.img`
+	width: 100%;
+`;
+
 export default function Intro() {
 	return (
 		<>
@@ -83,7 +88,9 @@ export default function Intro() {
 						</Contact>
 					</Info>
 				</Left>
-				<Right>R</Right>
+				<Right>
+					<Image src={saitama}></Image>
+				</Right>
 			</Container>
 		</>
 	);
