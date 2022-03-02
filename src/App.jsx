@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
+import Feature from "./components/Feature";
 
 const Container = styled.div`
 	height: 100vh;
@@ -26,6 +27,9 @@ function App() {
 				<Navbar />
 				<Intro />
 				<IntoShape />
+			</Container>
+			<Container>
+				<Feature />
 			</Container>
 		</>
 	);
