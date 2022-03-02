@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Saitama from "../img/saitama.jpg";
+import Latina from "../img/Latina with Glasses.jpg";
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -90,7 +90,7 @@ export default function Intro() {
 					</Info>
 				</Left>
 				<Right>
-					<Image src={Saitama}></Image>
+					<Image src={Latina}></Image>
 				</Right>
 				<AnimatedShapes />
 			</Container>

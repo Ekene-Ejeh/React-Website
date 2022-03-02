@@ -10,9 +10,9 @@ const Square = styled.div`
 	top: -60px;
 	left: -6opx;
 	z-index: -1;
-	animation: square 25s linear alternate infinite;
+	animation: Square 25s linear alternate infinite;
 
-	@keyframes square {
+	@keyframes Square {
 		to {
 			transform: translate(100vw, 100vh);
 		}
@@ -22,12 +22,12 @@ const Circle = styled.div`
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background-color: tomato;
+	background-color: #ff97af;
 	position: absolute;
 	top: 200px;
 	left: -100px;
 	z-index: -1;
-	animation: circle 25s linear alternate infinite;
+	animation: Circle 25s linear alternate infinite;
 
 	@keyframes Circle {
 		to {
@@ -39,8 +39,8 @@ const Circle = styled.div`
 const Rectangle = styled.div`
 	width: 70px;
 	height: 100px;
-	background-color: yellow;
-	opacity: 0.5;
+	background-color: #ff2;
+	opacity: 0.7;
 	position: absolute;
 	top: 400px;
 	left: -5opx;
