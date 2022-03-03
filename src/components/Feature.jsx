@@ -18,6 +18,7 @@ const Right = styled.div`
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+	// align-items: center;
 	justify-content: center;
 `;
 
@@ -28,11 +29,26 @@ const SubTitle = styled.span`
 	font-size: 24px;
 	font-style: italic;
 	color: tomato;
+	margin-top: 20px;
 `;
 
-const Description = styled.p``;
+const Description = styled.p`
+	font-size: 20px;
+	color: #777;
+	margin-top: 20px;
+`;
 
-const Button = styled.button``;
+const Button = styled.button`
+	width: 150px;
+	border: none;
+	padding: 15px 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: darkblue;
+	border-radius: 20px;
+	font-size: 20px;
+	cursor: pointer;
+`;
 
 export default function Feature() {
 	return (
@@ -52,14 +68,11 @@ export default function Feature() {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
 						nesciunt architecto nobis commodi, autem ea at dolore quos aperiam,
 						sequi neque adipisci facere? Provident repellendus temporibus dicta
-						quod adipisci debitis, rerum voluptatum assumenda dolore suscipit
-						modi? Totam laudantium, reiciendis libero sint voluptas, dolores,
-						excepturi impedit rem delectus beatae adipisci exercitationem?
+						quod adipisci debitis.
 					</Description>
 					<Description>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad
-						esse. Totam officia tempora aspernatur placeat, ratione veniam cum!
-						Id incidunt veniam assumenda nobis eaque, totam odio nam facere at.
+						esse.
 					</Description>
 					<Button>Learn More</Button>
 				</Right>

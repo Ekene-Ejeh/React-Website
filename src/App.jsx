@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Feature from "./components/Feature";
@@ -8,6 +8,8 @@ const Container = styled.div`
 	height: 100vh;
 	overflow: hidden;
 `;
+
+const Shape = css;
 
 const IntoShape = styled.div`
 	width: 100%;
