@@ -16,8 +16,8 @@ const IntoShape = styled.div`
 	top: 0;
 	left: 0;
 	z-index: -1;
-	clip-path: polygon(67% 0, 100% 0%, 100% 100%, 55% 100%);
-	background-color: darkblue;
+	clip-path: polygon(60% 0, 100% 0%, 100% 100%, 55% 100%);
+	background-color: #dc682c;
 `;
 
 function App() {

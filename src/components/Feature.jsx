@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Phone from "../img/Phone-Call.jpg";
+import Phone from "../img/Phone-in-hand.jpg";
 
 const Container = styled.div`
 	display: flex;
@@ -11,7 +11,7 @@ const Left = styled.div`
 `;
 
 const Image = styled.img`
-	width: 70%;
+	width: 65%;
 `;
 
 const Right = styled.div`
