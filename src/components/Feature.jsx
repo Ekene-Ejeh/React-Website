@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Phone from "../img/Phone-in-hand.jpg";
+import Phone from "../img/Phone-flat.jpg";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
 	display: flex;
@@ -76,6 +77,7 @@ export default function Feature() {
 					</Description>
 					<Button>Learn More</Button>
 				</Right>
+				<AnimatedShapes />
 			</Container>
 		</>
 	);
