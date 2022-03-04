@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Dog from "../img/Dog-3-peri-stojnic-5Vr_RVPfbMI-unsplash.jpg";
+import MiniCard from "./MiniCard";
 
 const Container = styled.div`
 	display: flex;
@@ -57,7 +58,11 @@ export default function Service() {
 							veniam inventore velit similique iusto quis architecto, quas animi
 							totam?
 						</Description>
-						<CardContainer></CardContainer>
+						<CardContainer>
+							<MiniCard />
+							<MiniCard />
+							<MiniCard />
+						</CardContainer>
 					</Wrapper>
 				</Right>
 			</Container>
