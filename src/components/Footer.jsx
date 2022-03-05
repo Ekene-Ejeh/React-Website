@@ -6,7 +6,7 @@ const Container = styled.div``;
 export default function Footer() {
 	return (
 		<>
-			<Container>Footer</Container>
+			<Container></Container>
 		</>
 	);
 }
