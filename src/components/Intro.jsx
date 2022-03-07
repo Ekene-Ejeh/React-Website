@@ -7,6 +7,10 @@ const Container = styled.div`
 	height: calc(100vh - 50px);
 	display: flex;
 	padding: 20px;
+
+	@media only screen and (max-width: 480px) {
+		flex-direction: column;
+	}
 `;
 const Left = styled.div`
 	width: 60%;
@@ -14,17 +18,30 @@ const Left = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+		height: 100%;
+	}
 `;
 
 const Title = styled.h1`
 	font-size: 60px;
 	width: 60%;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Desc = styled.p`
 	width: 60%;
 	font-size: 20px;
 	margin-top: 20px;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Info = styled.div`
@@ -33,6 +50,10 @@ const Info = styled.div`
 	justify-content: space-between;
 	margin-top: 30px;
 	align-items: center;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Button = styled.button`
@@ -62,6 +83,10 @@ const ContactText = styled.span`
 
 const Right = styled.div`
 	width: 40%;
+
+	@media only screen and (max-width: 480px) {
+		display: none;
+	}
 `;
 
 const Image = styled.img`
