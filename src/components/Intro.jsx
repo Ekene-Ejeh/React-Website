@@ -31,6 +31,7 @@ const Title = styled.h1`
 
 	@media only screen and (max-width: 480px) {
 		width: 100%;
+		font-size: 50px;
 	}
 `;
 
@@ -53,6 +54,7 @@ const Info = styled.div`
 
 	@media only screen and (max-width: 480px) {
 		width: 100%;
+		flex-direction: column;
 	}
 `;
 
@@ -65,6 +67,9 @@ const Button = styled.button`
 	cursor: pointer;
 	border: none;
 	letter-spacing: 2px;
+	@media only screen and (max-width: 480px) {
+		margin-bottom: 20px;
+	}
 `;
 
 const Contact = styled.div`
@@ -75,6 +80,10 @@ const Contact = styled.div`
 const Phone = styled.span`
 	color: tomato;
 	font-weight: bold;
+
+	@media only screen and (max-width: 480px) {
+		color: crimson;
+	}
 `;
 const ContactText = styled.span`
 	color: grey;
