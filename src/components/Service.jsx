@@ -34,6 +34,9 @@ const Video = styled.video`
 	bottom: 0;
 	right: 0;
 	margin: auto;
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Right = styled.div`
